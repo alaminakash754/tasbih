@@ -3,6 +3,8 @@ import {
   } from "react-router-dom";
 import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home/Home";
+import SubhanAllah from "../Pages/Home/Shared/SubhanAllah";
+import TinKul from "../Pages/Home/Shared/tinKul";
 
 export const router = createBrowserRouter([
     {
@@ -12,6 +14,14 @@ export const router = createBrowserRouter([
         {
             path: '/',
             element: <Home></Home>
+        },
+        {
+          path: '/subhanAllah',
+          element: <SubhanAllah></SubhanAllah>
+        },
+        {
+          path: '/kul',
+          element: <TinKul></TinKul>
         }
       ]
     },
