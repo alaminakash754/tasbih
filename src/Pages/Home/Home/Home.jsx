@@ -11,6 +11,7 @@ const Home = () => {
             </h3>
             <Link to='/subhanAllah'><li>প্রতি ফরজ নামাযের পর ঃ </li></Link>
             <Link to='/kul'><li>৩ কূল (সকাল - সন্ধ্যায় ৩ বার) ঃ </li></Link>
+            <Link to='/safeFromJahannam'><li>জাহান্নাম থেকে বাচার দোয়া </li></Link>
 
             
         </div>
